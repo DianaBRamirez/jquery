@@ -1,0 +1,19 @@
+// document.getElementsByClassName('').metodos
+
+// CON JQUERY
+//  $('$id').on("metodo a llamar", que se va a hacer)
+//  $('.class').metodo
+//  $('p').metodo
+//  $('p .miclase').metodo
+    // this. para referirse a sí mismo
+    // self. para referirse a sí mismo
+
+
+$('.nav-item a').hover(
+    function() {
+        $(this).addClass("active");
+    },
+    function() {
+        $(this).removeClass("active");
+    }
+);
